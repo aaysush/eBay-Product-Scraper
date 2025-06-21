@@ -24,7 +24,7 @@ Additional Python Libraries: random, time
 
 
 NOTE:
-There is a additional file named scrapper_custom_proxy.py which can be used to integrate your own proxy services(eg.BrightData)
+There is a additional file named eBAY_custom_proxy.py which can be used to integrate your own proxy services(eg.BrightData)
 or u can use it locally using cron job
 
 
