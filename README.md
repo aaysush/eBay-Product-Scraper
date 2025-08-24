@@ -1,5 +1,3 @@
-# eBay-Product-Scraper
-
 # eBay Dynamic Content Scraper
 
 A Python-based web scraping tool that extracts product information from eBay listings using Selenium WebDriver. The scraper handles dynamic content loading and implements human-like behavior patterns to minimize detection risk.
@@ -208,20 +206,3 @@ Price: US $288.00
 Discount: Was US $320.00 (10% off)  
 Scraping successful!
 
-
-### Example Execution
-
-Below is an example of the script in action:
-
-**Execution Terminal Output:**  
- 
-PS C:\Users\Administrator\Desktop\Price Tracker> & C:/Users/Administrator/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/Administrator/Desktop/Price Tracker/final_ebay_scrapper.py"
-
-Enter an eBay URL to scrape: https://www.ebay.com/itm/155465650023?_skw=discounted+pant&itmmeta=01JYA2N6PD30K5BSRGGDVPTHME&hash=item2432798f67:g:gccAAOSwRjxmqkJf&itmprp=enc%3AAQAKAAAA8FkggFvd1GGDu0w3yXCmi1eUXqsNdyFu%2FdKF5Sf%2FrkSA%2Fk9jd3zopD4E3Dc%2BtzXgFYsTcwyPRNbWym%2FAkBS0hfe%2FU6ecdWh9rVeEUOROgEnn6xMJvwCFqDrrHxNU75jplk6Ut5endsF%2FK8mVp0ItIUNl1ndGD8mv6hconV7rCyF0SOKcnyq%2BNUgZFnzEOxGX3tlQyWP0LCEVoQ1%2BMS9Ku6F12SYKetgr8kyO3E6qarSyVpswMvddnRAF%2BM%2Bx36qkaSAL6Jw%2FUs5ws6H%2Fq8kJoGx34vTwQGNJMCNFCVWRnfU8ExN2XpIH8ASnCLkEw8NhrQ%3D%3D%7Ctkp%3ABk9SR6zr1MLyZQ
-
-DevTools listening on ws://127.0.0.1:51105/devtools/browser/b363caf0-3820-44a0-a0b3-b4b014e3a84f
-
-Product Title: Men's Black Streetwear Techwear Heavy Cargo Trouser Pants H-G B.L.P-04.V2/BLCK
-Price: US $288.00
-Discount: Was US $320.00 (10% off)
-Scraping successful!
