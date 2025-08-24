@@ -16,7 +16,7 @@ def fetch_dynamic_content(url):
     try:
         # Configure Chrome options
         chrome_options = Options()
-        chrome_options.add_argument("--headless")  # Use headless mode for faster operation (remove for visible browser)
+        chrome_options.add_argument("--headless")  # headless mode 
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--ignore-certificate-errors")
@@ -26,7 +26,7 @@ def fetch_dynamic_content(url):
         service = Service(r"C:\Users\Administrator\Desktop\Price Tracker\chromedriver-win64\chromedriver-win64\chromedriver.exe")
         driver = webdriver.Chrome(service=service, options=chrome_options)
 
-        # Open the URL
+        # Open URL
         driver.get(url)
         random_delay()
 
@@ -83,3 +83,4 @@ def add_products(link):
 def sub_products(link):
     # Code to remove product from the list
 '''
+
